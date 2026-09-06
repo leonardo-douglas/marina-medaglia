@@ -38,6 +38,20 @@
   />
 
   <link rel="stylesheet" href="css/style.css" />
+
+  <style>
+    .hero-main-image,
+    .about-image,
+    .gallery-photo { overflow: hidden; }
+    .hero-main-image img,
+    .about-image img,
+    .gallery-photo img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  </style>
 </head>
 
 <body>
@@ -196,10 +210,7 @@
           <div class="hero-photo">
 
             <div class="image-placeholder hero-main-image">
-              <!--
-                Coloque a foto principal da Marina em:
-                assets/marina-hero.jpg
-              -->
+              <img src="assets/marina-hero.jpg" alt="Marina Medaglia - Estética Avançada" />
             </div>
 
             <div class="hero-badge hero-badge-top">
@@ -291,9 +302,13 @@
 
         <div class="about-images reveal">
 
-          <div class="about-image about-image-main"></div>
+          <div class="about-image about-image-main">
+              <img src="assets/marina-1.jpg" alt="Marina Medaglia durante atendimento" />
+            </div>
 
-          <div class="about-image about-image-small"></div>
+          <div class="about-image about-image-small">
+              <img src="assets/marina-2.jpg" alt="Espaço Marina Medaglia" />
+            </div>
 
           <div class="about-number-card">
             <strong>5.0</strong>
@@ -680,9 +695,13 @@
 
         <div class="experience-gallery reveal">
 
-          <div class="gallery-photo gallery-photo-one"></div>
+          <div class="gallery-photo gallery-photo-one">
+              <img src="assets/espaco-1.jpg" alt="Espaço de atendimento Marina Medaglia" />
+            </div>
 
-          <div class="gallery-photo gallery-photo-two"></div>
+          <div class="gallery-photo gallery-photo-two">
+              <img src="assets/espaco-2.jpg" alt="Ambiente da Marina Medaglia Estética" />
+            </div>
 
           <div class="gallery-caption">
             <span>Marina Medaglia</span>
